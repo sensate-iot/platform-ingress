@@ -29,4 +29,4 @@ jobs:
       - name: Run dotnet format
         working-directory: ${{env.working-directory}}
         run: |
-          dotnet format --check SensateIoT.Platform/SensateIoT.Platform.Ingress
+          dotnet format --check platform-ingress.sln
