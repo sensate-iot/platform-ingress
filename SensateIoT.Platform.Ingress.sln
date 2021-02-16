@@ -11,8 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SensateIoT.Platform.Ingress
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build Automation", "Build Automation", "{BDA5EBFC-22E5-46F9-9912-0CB2A4571BBF}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\.github\workflows\docker-mqttservice.yml = ..\..\.github\workflows\docker-mqttservice.yml
-		..\..\.github\workflows\dotnet-format.yml = ..\..\.github\workflows\dotnet-format.yml
+		.github\workflows\docker-mqttservice.yml = .github\workflows\docker-mqttservice.yml
+		.github\workflows\dotnet-format.yml = .github\workflows\dotnet-format.yml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{100DA72C-F9C7-43B3-BA5C-E04116AB9DA3}"
@@ -20,6 +20,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.dockerignore = .dockerignore
 		.editorconfig = .editorconfig
 		.gitignore = .gitignore
+		CHANGELOG.md = CHANGELOG.md
+		CODE_OF_CONDUCT.md = CODE_OF_CONDUCT.md
+		CODESTYLE.md = CODESTYLE.md
+		CONTRIBUTING.md = CONTRIBUTING.md
+		COPYING = COPYING
+		README.md = README.md
+		SECURITY.md = SECURITY.md
 	EndProjectSection
 EndProject
 Global
